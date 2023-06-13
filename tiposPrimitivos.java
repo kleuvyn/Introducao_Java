@@ -1,4 +1,4 @@
-public class VarIdade {
+public class tiposPrimitivos {
     public static void main(String[] args) {
         //Variáveis primitivas: podem ser do tipo byte, short, int, long, float, double, char ou boolean.
 
@@ -58,6 +58,31 @@ public class VarIdade {
 
         char ae = 'a';
         char ba = 97; //Equivale a letra ‘a’
+
+        String palavra = "Alura cursos online de tecnologia ";
+        System.out.println(palavra);
+
+        palavra = palavra + 2020;
+        System.out.println(palavra);
+
+        String parcela1 = "10";
+        String parcela2 = "20";
+
+        System.out.println(parcela1 + parcela2);
+
+        String saudacao = "Olá, meu nome é ";
+        String nome = "Beatryz Kleuvyn ";
+        String continuacao = "e minha idade é ";
+        int idadei = 28 ;
+        System.out.println(saudacao + nome + continuacao + idadei + " anos. \n Aqui concluo os Tipos Primitivos. \n " +
+                " Os tipos primitivos são os tipos de dados mais básicos e fundamentais em programação. " +
+                "\n" +
+                "  Eles representam valores simples, como números inteiros, números de ponto flutuante, caracteres individuais e valores booleanos.\n" +
+                "\n" +
+                "    Os números inteiros: são usados para representar números inteiros sem casas decimais, como 1, 2, -3, etc.\n" +
+                "    Os números de ponto flutuante: são usados para representar números com casas decimais, como 3.14, -0.5, etc.\n" +
+                "    Os caracteres: representam símbolos individuais, como letras, dígitos ou outros caracteres especiais, como 'a', 'B', '5', '&', etc.\n" +
+                "    Os valores booleanos: são usados para representar verdadeiro (true) ou falso (false). ");
 
         //Tipo Booleano (boolean)
         //Os palavras true, false e null representam valores básicos e não podem ser utilizados na declaração de atributos, métodos ou classes.
