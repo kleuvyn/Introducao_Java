@@ -17,5 +17,14 @@
         }
 
     }
+    public boolean transferir(double valor, Conta destino){
+        if(this.saldo>= valor){
+            this.saldo -= valor;
+            destino.depositar(valor);
+            return true;
+        }
+        return false;
+
+    }
 }
 

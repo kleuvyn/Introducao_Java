@@ -27,13 +27,19 @@ public class CriarConta {
         boolean conseguiuSacar =contaKleuvyn.sacar(20);
         System.out.println(contaKleuvyn.saldo);
         System.out.println(conseguiuSacar);
+        //test03
+        Conta contaIgor = new Conta();
+        contaIgor.depositar(1000);
 
+        if(contaIgor.transferir(300, contaKleuvyn)){
+            System.out.println("Transferencia realizada com sucesso!");
+        }else{
+            System.out.println("Saldo insuficiente!");
+        }
+        System.out.println("saldo " + contaIgor.saldo);
+        System.out.println("saldo " + contaKleuvyn.saldo);
 
-
-
-
-
-
-    }
-
-   }
+        //    definir métodos com parâmetros e retorno
+        //    retornar algo usando a palavra chave return
+        //    podemos passar uma referência como parâmetro do método
+        //    métodos são chamadas a partir da referência usando o operador .
