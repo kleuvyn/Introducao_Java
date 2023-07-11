@@ -4,6 +4,15 @@
        private int numero;
        private Cliente titular;
 
+      // OPCIONAL  public Conta(){
+
+       }
+       public Conta(int agencia, int numero){
+           this.agencia = agencia;
+           this.numero = numero;
+           System.out.println("...Crinda conta...\n" + "Conta: " + this.numero);
+       }
+
     public void depositar(double valor){
         this.saldo += valor;
 
@@ -34,10 +43,9 @@
             return this.numero;
         }
 
-       public int setNumero(int numero) {
+       public void setNumero(int numero) {
            if(numero <= 0) {
                System.out.println("Não pode valalor menor  igual a 0.");
-               return;
            }
            this.numero = numero;
        }
