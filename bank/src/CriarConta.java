@@ -43,3 +43,9 @@ public class CriarConta {
         //    retornar algo usando a palavra chave return
         //    podemos passar uma referência como parâmetro do método
         //    métodos são chamadas a partir da referência usando o operador .
+        //test04
+        contaKleuvyn.titular = "Beatryz Kleuvyn";
+        System.out.println(contaKleuvyn.titular);
+    }
+
+   }
