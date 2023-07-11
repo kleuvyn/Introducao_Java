@@ -3,11 +3,14 @@
        private int agencia;
        private int numero;
        private Cliente titular;
+       private static int total;
 
-      // OPCIONAL  public Conta(){
+      // OPCIONAL
+      public Conta(){
 
        }
        public Conta(int agencia, int numero){
+           total++;
            this.agencia = agencia;
            this.numero = numero;
            System.out.println("...Crinda conta...\n" + "Conta: " + this.numero);
