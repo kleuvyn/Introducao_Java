@@ -20,7 +20,8 @@ public class TestReferencias {
         controle.registra(editorv);
 
 
-        System.out.println("Nome: " + gr01.getNome() + "\nCPF: " + gr01.getCpf() + "\nSalario: " + gr01.getSalario() + "\nBonificação: " +  controle.getSoma());
+        System.out.println("Nome: " + gr01.getNome() + "\nCPF: " + gr01.getCpf() + "\nSalario: "
+                + gr01.getSalario() + "\nBonificação: " +  controle.getSoma());
 
         gr01.setSenha(0306);
         boolean autenticou = gr01.autentica(0306);
