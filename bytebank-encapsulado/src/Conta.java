@@ -3,17 +3,18 @@
        private int agencia;
        private int numero;
        private Cliente titular;
-       private static int total;
+      static int total;
 
       // OPCIONAL
       public Conta(){
 
        }
        public Conta(int agencia, int numero){
-           total++;
+           Conta.total++;
+
            this.agencia = agencia;
            this.numero = numero;
-           System.out.println("...Crinda conta...\n" + "Conta: " + this.numero);
+           //System.out.println("...Crinda conta...\n" + "Conta: " + this.numero );
        }
 
     public void depositar(double valor){
@@ -72,4 +73,7 @@
            return titular;
        }
 
+        public static int getTotal() {
+            return Conta.total;
    }
+}

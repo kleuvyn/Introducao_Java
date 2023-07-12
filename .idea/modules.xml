@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank Herdado/Bank Herdado.iml" filepath="$PROJECT_DIR$/Bank Herdado/Bank Herdado.iml" />
       <module fileurl="file://$PROJECT_DIR$/Introducao java.iml" filepath="$PROJECT_DIR$/Introducao java.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank/bank.iml" filepath="$PROJECT_DIR$/bank/bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-composto/bank-composto.iml" filepath="$PROJECT_DIR$/bank-composto/bank-composto.iml" />
