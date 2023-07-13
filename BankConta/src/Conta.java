@@ -14,8 +14,8 @@
 
            this.agencia = agencia;
            this.numero = numero;
-           this.saldo = 100
-           System.out.println("...Crinda conta...\n" + "Conta: " + this.numero );
+           this.saldo = 100;
+           //System.out.println("\n...Crinda conta...\n" + "\nConta: " + this.numero );
        }
 
     public void depositar(double valor){
@@ -32,8 +32,7 @@
 
     }
     public boolean transferir(double valor, Conta destino) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
+        if (this.sacar(valor )) {
             destino.depositar(valor);
             return true;
         }
@@ -41,7 +40,6 @@
     }
         public double getSaldo() {
             return this.saldo;
-
         }
 
         public int getNumero() {
