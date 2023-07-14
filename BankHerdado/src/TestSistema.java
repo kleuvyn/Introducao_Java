@@ -7,9 +7,13 @@ public class TestSistema {
         Administrador adm = new Administrador();
         adm.setSenha(1239);
 
+        Cliente cliente = new Cliente();
+        cliente.setSenha(2222);
+
         SistemaInterno sis = new SistemaInterno();
         sis.autentica(gr01);
         sis.autentica(adm);
+        sis.autentica(cliente);
 
     }
 
