@@ -3,7 +3,7 @@ public class testPen {
 
      Pen caneta = new Pen();
      caneta.setModelo("Bic");
-     caaneta.setPonta (0.5f);
+//     caaneta.setPonta (0.5f);
      caneta.status();
     }
 }

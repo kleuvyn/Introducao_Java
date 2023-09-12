@@ -1,5 +1,5 @@
 import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -7,16 +7,27 @@ public class TestListagem {
 
 
         public static void main(String[] args) throws SQLException {
-            Connection con = DriverManager
-                    .getConnection("jdbc:mysql://localhost:3306/SUCOS?useTimezone=true&serverTimezone=UTC", "admin", "password");
 
-            Statement stm = con.createStatement();
-            boolean resultado  = stm.execute("SELECT NOME, TAMANHO, EMBALAGEM, PRODUTO, SABOR  FROM tbPRODUTO");
+            Conector conectar = new Conector();
+            Connection connection = conectar.Estabelecer();
 
-            System.out.println(resultado);
+            Statement stm = connection.createStatement();
+            stm.execute("SELECT PRODUTO, NOME, PRECO_LISTA FROM tbPRODUTO");
 
+            ResultSet rst =stm.getResultSet();
 
-            con.close();
+            while(rst.next()) {
+                System.out.println();
+                String produto = rst.getString("PRODUTO");
+                System.out.println(produto);
+                String nome = rst.getString("NOME");
+                System.out.println(nome);
+                Float preco = rst.getFloat("PRECO_LISTA");
+                System.out.println(preco);
+
+            }
+
+            connection.close();
         }
     }
 
