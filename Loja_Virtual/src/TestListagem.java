@@ -8,8 +8,8 @@ public class TestListagem {
 
         public static void main(String[] args) throws SQLException {
 
-            Conector conectar = new Conector();
-            Connection connection = conectar.Estabelecer();
+            Conector estabelecer = new Conector();
+            Connection connection = estabelecer.conexao();
 
             Statement stm = connection.createStatement();
             stm.execute("SELECT PRODUTO, NOME, PRECO_LISTA FROM tbPRODUTO");

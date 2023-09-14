@@ -6,8 +6,8 @@ import java.sql.Statement;
 public class TestInsercaco {
     public static void main(String[] args) throws SQLException {
 
-        Conector conectar = new Conector();
-        Connection connection = conectar.Estabelecer();
+        Conector estabelecer = new Conector();
+        Connection connection = estabelecer.conexao();
 
         Statement stm = connection.createStatement();
         stm.execute("INSERT INTO  tbPRODUTO (PRODUTO, NOME, PRECO_LISTA) VALUES ('1000335', 'Test tes', '5.99')",

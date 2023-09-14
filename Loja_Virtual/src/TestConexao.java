@@ -6,7 +6,7 @@ public class TestConexao {
 
     public static void main(String[] args) throws SQLException {
         Conector conectar = new Conector();
-        Connection connection = conectar.Estabelecer();
+        Connection connection = conectar.conexao();
 
         connection.close();
     }
