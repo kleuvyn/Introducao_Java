@@ -3,7 +3,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class TestInsercaco {
+public class TestInsercao {
     public static void main(String[] args) throws SQLException {
 
         Conector estabelecer = new Conector();
