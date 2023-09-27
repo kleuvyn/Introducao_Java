@@ -15,6 +15,8 @@ public class Conector{
         comboPooledDataSource.setUser("admin");
         comboPooledDataSource.setPassword("password");
 
+        comboPooledDataSource.setMaxPoolSize(15);
+
         this.dataSource =  comboPooledDataSource;
     }
 
