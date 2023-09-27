@@ -1,3 +1,5 @@
+package br.com.alura.jdbc;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,6 +16,7 @@ public class TestInsercao {
                  Statement.RETURN_GENERATED_KEYS);
 
         ResultSet rst = stm.getGeneratedKeys();
+
         while(rst.next()) {
             String produto = rst.getString(1);
             System.out.println("O produto criado foi: " + produto);
