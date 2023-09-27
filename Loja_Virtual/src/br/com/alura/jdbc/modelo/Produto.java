@@ -2,34 +2,39 @@ package br.com.alura.jdbc.modelo;
 
 public class Produto {
 
-    private String PRODUTO;
-    private String NOME;
-    private  Float PRECO_LISTA;
+    private String produto;
+    private String nome;
+    private  Float preco_lista;
 
-    public Produto(String number, String s, double v) {
+    public Produto(String produto, String nome, Float preco_lista) {
         super();
-        this.PRODUTO = PRODUTO;
-        this.NOME = NOME;
-        this.PRECO_LISTA = PRECO_LISTA;
+        this.produto = produto;
+        this.nome = nome;
+        this.preco_lista = preco_lista;
 
     }
 
-    public String getPRODUTO() {
-        return PRODUTO;
-    }
-    public String getNOME() {
-        return NOME;
-    }
-    public Float getPRECO_LISTA() {
-        return PRECO_LISTA;
+    public void setProduto(String produto) {
+        this.produto = this.produto;
+
     }
 
+    public String getProduto() {
+        return produto;
 
-    public void setProduto(String string) {
+    }
+    public String getNome() {
+        return nome;
+
+    }
+    public Float getPreco_lista() {
+        return preco_lista;
+
     }
 
     public String toString(){
-        return String.format("O produto criado foi: %, %, %",
-                this.PRODUTO, this,NOME, this.PRECO_LISTA);
+        return String.format("O produto criado é: %s, %s, %.2f",
+                this.produto, this.nome, this.preco_lista);
+
     }
 }

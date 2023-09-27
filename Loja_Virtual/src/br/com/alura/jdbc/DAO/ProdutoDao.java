@@ -1,7 +1,8 @@
 package br.com.alura.jdbc.DAO;
 import br.com.alura.jdbc.modelo.Produto;
-import java.beans.PersistenceDelegate;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ProdutoDao {
 
@@ -18,11 +19,11 @@ public class ProdutoDao {
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-            preparedStatement.setString(1, produto.getPRODUTO());
-            preparedStatement.setString(2, produto.getNOME());
-            preparedStatement.setFloat(3, produto.getPRECO_LISTA());
+            preparedStatement.setString(1, produto.getProduto());
+            preparedStatement.setString(2, produto.getNome());
+            preparedStatement.setFloat(3, produto.getPreco_lista());
 
-            preparedStatement.execute();
+           preparedStatement.execute();
 
             try (ResultSet rst = preparedStatement.getGeneratedKeys()) {
                 while (rst.next()) {
@@ -32,5 +33,28 @@ public class ProdutoDao {
             }
 
         }
+    }
+
+    public List<Produto> listar() throws SQLException {
+        List<Produto> produtos = new ArrayList<Produto>();
+
+        String sql = "SELECT PRODUTO, NOME, PRECO_LISTA FROM tbPRODUTO";
+
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            preparedStatement.execute();
+
+            try (ResultSet rst = preparedStatement.getResultSet()) {
+                while (rst.next()) {
+                    Produto produto =
+                            new Produto(
+                                    rst.getString(1),
+                                    rst.getString(2),
+                                    rst.getFloat(3));
+
+                    produtos.add(produto);
+                }
+            }
+        }
+        return produtos;
     }
 }
