@@ -8,6 +8,8 @@ public class TestConexao {
         Conector conectar = new Conector();
         Connection connection = conectar.conexao();
 
+        System.out.println("\nFechando conexão!!");
+
         connection.close();
     }
 }
