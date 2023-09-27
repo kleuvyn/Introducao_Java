@@ -1,12 +1,14 @@
+import java.sql.SQLException;
+
 public class TestPool {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
-        Conector conector = new Conector();
+        Conector conectar = new Conector();
 
-        for (int i = 0; i < args.length; i++){
-
-
+        for (int i = 0; i < 20; i++){
+           conectar.conexao();
+            System.out.println("Conexao de número:" +i);
         }
 
     }
