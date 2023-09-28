@@ -15,11 +15,11 @@ public class ProdutoDao {
 
     public void salvarProduto(Produto produto) throws SQLException {
 
-        String sql = "INSERT INTO  tbPRODUTO (PRODUTO, NOME, PRECO_LISTA) VALUES(?, ?, ? )";
+        String sql = "INSERT INTO  tbPRODUTO (Id, NOME, PRECO_LISTA) VALUES(?, ?, ? )";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
-            preparedStatement.setString(1, produto.getProduto());
+            preparedStatement.setString(1, produto.getId());
             preparedStatement.setString(2, produto.getNome());
             preparedStatement.setFloat(3, produto.getPreco_lista());
 
@@ -27,7 +27,7 @@ public class ProdutoDao {
 
             try (ResultSet rst = preparedStatement.getGeneratedKeys()) {
                 while (rst.next()) {
-                    produto.setProduto(rst.getString(1));
+                    produto.setId(rst.getString(1));
 
                 }
             }
@@ -38,7 +38,7 @@ public class ProdutoDao {
     public List<Produto> listar() throws SQLException {
         List<Produto> produtos = new ArrayList<Produto>();
 
-        String sql = "SELECT PRODUTO, NOME, PRECO_LISTA FROM tbPRODUTO";
+        String sql = "SELECT Id, NOME, PRECO_LISTA FROM tbPRODUTO";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.execute();
