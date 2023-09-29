@@ -12,12 +12,9 @@ public class Conector{
 
     public Conector() {
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
-
         comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost:3306/SUCOS?useTimezone=true&serverTimezone=UTC");
         comboPooledDataSource.setUser("admin");
         comboPooledDataSource.setPassword("password");
-
-        comboPooledDataSource.setMaxPoolSize(15);
 
         this.dataSource =  comboPooledDataSource;
     }
