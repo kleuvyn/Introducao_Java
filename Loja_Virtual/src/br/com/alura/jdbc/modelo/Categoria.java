@@ -17,4 +17,8 @@ public class Categoria {
     public String getNome() {
         return nome;
     }
+
+    public int getId() {
+        return id;
+    }
 }

@@ -12,7 +12,7 @@ public class TestInsercaoEListagemComProduto {
 
     public static  void main(String[] args) throws SQLException {
 
-        Produto produto = new Produto("569824", "Água com gas 500Ml", 1.39f);
+        Produto produto = new Produto("518563", "H2O 500Ml", 5.99f);
 
         try (Connection connection = new Conector().conexao()) {
             ProdutoDao produtoDao = new ProdutoDao(connection);
