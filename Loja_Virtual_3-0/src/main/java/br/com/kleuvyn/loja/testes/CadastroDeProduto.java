@@ -12,13 +12,18 @@ public class CadastroDeProduto {
 
     public static void main(String[] args) {
 
-        Produto celular = new Produto("Xiaomi Redmi", "Note 12", new BigDecimal("1299.99"), Categoria.CELULARES);
+        Categoria celulares = new Categoria ("CELULARES");
+        Produto celular = new Produto("Xiaomi Redmi", "Note 12", new BigDecimal("1299.99"), celulares);
 
         EntityManager em = JPAUtil.getEntityManeger();
-        ProdutoDao dao = new ProdutoDao(em);
+
+        ProdutoDao produtoDao = new ProdutoDao(em);
+        CategoriaDao categoriaDao = new CategoriaDao(em);
 
         em.getTransaction().begin();
-        em.persist(celular);
+        categoriaDao.cadastrar(celulares);
+        produtoDao.cadastrar(celular);
+
         System.out.println("### "+celular.getId());
         em.getTransaction().commit();
         em.close();

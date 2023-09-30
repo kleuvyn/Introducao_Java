@@ -1,5 +1,7 @@
-br/com/kleuvyn/loja/modelo/Produto.class
 br/com/kleuvyn/loja/util/JPAUtil.class
 br/com/kleuvyn/loja/modelo/Categoria.class
+br/com/kleuvyn/loja/testes/CategoriaDao.class
 br/com/kleuvyn/loja/dao/ProdutoDao.class
+br/com/kleuvyn/loja/modelo/Produto.class
+br/com/kleuvyn/loja/dao/CategoriaDao.class
 br/com/kleuvyn/loja/testes/CadastroDeProduto.class
