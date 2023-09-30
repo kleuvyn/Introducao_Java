@@ -1,0 +1,4 @@
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/dao/ProdutoDao.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java
+/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn/loja/util/JPAUtil.java
