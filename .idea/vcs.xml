@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Loja-Virtual-View" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Loja_Virtual_3-0" vcs="Git" />
   </component>
 </project>
