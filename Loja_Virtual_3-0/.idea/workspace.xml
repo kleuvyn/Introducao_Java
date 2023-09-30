@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="Mapeando uma entidade">
-      <change afterPath="$PROJECT_DIR$/src/main/Celulares " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/ProdutoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/util/JPAUtil.java" afterDir="false" />
+    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment=" Organizando o código">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Loja_Virtual_3-0-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,6 +64,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.kleuvyn.loja.modelo" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.br.com.kleuvyn.loja.testes.CadastroDeProduto">
     <configuration name="CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.kleuvyn.loja.test.CadastroDeProduto" />
@@ -111,7 +113,7 @@
       <updated>1696035724189</updated>
       <workItem from="1696035725183" duration="2854000" />
       <workItem from="1696038889100" duration="116000" />
-      <workItem from="1696039702392" duration="7011000" />
+      <workItem from="1696039702392" duration="8726000" />
     </task>
     <task id="LOCAL-00001" summary="Criando um projeto com JPA">
       <option name="closed" value="true" />
@@ -153,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696043941955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" Organizando o código">
+      <option name="closed" value="true" />
+      <created>1696048039818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696048039818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando um projeto com JPA" />
     <MESSAGE value="Mapeando uma entidade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapeando uma entidade" />
+    <MESSAGE value=" Organizando o código" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Organizando o código" />
   </component>
 </project>
