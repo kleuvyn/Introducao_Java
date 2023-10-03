@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="Mapeando relacionamentos">
+    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="Conclusão">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Celulares " beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Celulares " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/CategoriaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/ProdutoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CategoriaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CategoriaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/util/JPAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/util/JPAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +122,7 @@
       <workItem from="1696038889100" duration="116000" />
       <workItem from="1696039702392" duration="10944000" />
       <workItem from="1696079336683" duration="1508000" />
-      <workItem from="1696252878967" duration="4498000" />
+      <workItem from="1696252878967" duration="4855000" />
     </task>
     <task id="LOCAL-00001" summary="Criando um projeto com JPA">
       <option name="closed" value="true" />
@@ -193,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696051530072</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Conclusão">
+      <option name="closed" value="true" />
+      <created>1696294163432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696294163432</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +227,7 @@
     <MESSAGE value=" Organizando o código" />
     <MESSAGE value="Mais mapeamentos" />
     <MESSAGE value="Mapeando relacionamentos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapeando relacionamentos" />
+    <MESSAGE value="Conclusão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conclusão" />
   </component>
 </project>
