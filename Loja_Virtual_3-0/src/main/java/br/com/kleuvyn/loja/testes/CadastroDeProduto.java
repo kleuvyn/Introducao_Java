@@ -4,6 +4,7 @@ import br.com.kleuvyn.loja.dao.ProdutoDao;
 import br.com.kleuvyn.loja.modelo.Categoria;
 import br.com.kleuvyn.loja.modelo.Produto;
 import br.com.kleuvyn.loja.util.JPAUtil;
+
 import javax.persistence.EntityManager;
 import java.math.BigDecimal;
 import java.util.List;
@@ -42,9 +43,7 @@ public class CadastroDeProduto {
         em.close();
     }
 
-}
-
-//        Categoria celulares = new Categoria ("Celulares");
+}//        Categoria celulares = new Categoria ("Celulares");
 //        EntityManager em = JPAUtil.getEntityManeger();
 //
 //        em.persist(celulares);
