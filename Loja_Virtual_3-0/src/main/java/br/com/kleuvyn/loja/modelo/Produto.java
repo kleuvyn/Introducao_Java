@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+
 @Entity
 @Table(name = "produtos")
 public class Produto {
@@ -18,6 +19,9 @@ public class Produto {
 
     @ManyToOne
     private Categoria categoria;
+
+    public Produto() {
+    }
 
     public Produto(String nome, String descricao, BigDecimal preco, Categoria categoria) {
         this.nome = nome;
@@ -65,6 +69,7 @@ public class Produto {
     public void setDataCadastro(LocalDate dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
+
     public Categoria getCategoria() {
         return categoria;
     }
