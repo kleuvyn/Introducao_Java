@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="Conclusão">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/ClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java" afterDir="false" />
+    <list default="true" id="ed7e6488-2132-45cf-9b0e-ab4988364341" name="Changes" comment="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais.">
+      <change afterPath="$PROJECT_DIR$/src/main/Eletronicos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Loja_Virtual_3-0/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loja_Virtual_3-0/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/modelo/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Celulares " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/dao/PedidoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Loja_Virtual_3-0-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Loja_Virtual_3-0-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/dao/CategoriaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/dao/CategoriaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/dao/ProdutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/dao/ProdutoDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Categoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/modelo/Produto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CadastroDeProduto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CategoriaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/testes/CategoriaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/util/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/kleuvyn/loja/util/JPAUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -64,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0/src/main/java/br/com/kleuvyn",
-    "last_opened_file_path": "/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Loja_Virtual_3-0",
+    "last_opened_file_path": "/home/kleuvyn/Documentos/MeusRepositorios/Introducao_Java/Clínica Médica ",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,7 +125,9 @@
       <workItem from="1696038889100" duration="116000" />
       <workItem from="1696039702392" duration="10944000" />
       <workItem from="1696079336683" duration="1508000" />
-      <workItem from="1696252878967" duration="10367000" />
+      <workItem from="1696252878967" duration="11636000" />
+      <workItem from="1696332571310" duration="2506000" />
+      <workItem from="1696353396841" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="Criando um projeto com JPA">
       <option name="closed" value="true" />
@@ -228,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696294247684</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais.">
+      <option name="closed" value="true" />
+      <created>1696299947294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696299947294</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,17 +249,8 @@
     <MESSAGE value="Mais mapeamentos" />
     <MESSAGE value="Mapeando relacionamentos" />
     <MESSAGE value="Conclusão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conclusão" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/kleuvyn/loja/testes/CadastroDePedido.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&#10;Nessa aula, você aprendeu:&#10;&#10;    A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
+    <MESSAGE value="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA JPA &#10;A mapear novas entidades na aplicação conforme a modelagem do banco de dados;&#10;    A mapear um relacionamento com cardinalidade muitos-para-muitos;&#10;    A mapear um relacionamento bidirecional;&#10;    Como persistir entidades que possuam relacionamentos bidirecionais." />
   </component>
 </project>

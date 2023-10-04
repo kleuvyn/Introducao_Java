@@ -31,7 +31,7 @@ public class CadastroDePedido {
 
         private static void popularBancoDeDados() {
             Categoria celulares = new Categoria("CELULARES");
-            Produto celular = new Produto("Samsung Galaxy A71;", "Muito legal", new BigDecimal("999"), celulares );
+            Produto celular = new Produto("Samsung Galaxy A71;", "Muito legal", new BigDecimal("999.98"), celulares );
             Cliente cliente = new Cliente("Beatryz", "12345678900");
 
             EntityManager em = JPAUtil.getEntityManager();
