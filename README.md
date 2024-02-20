@@ -1,7 +1,7 @@
 # Bem-vindo ao Meu Repositório no GitHub
 
 Olá! Sou Beatryz, e este é o meu espaço no GitHub, onde compartilho projetos, 
-códigos e aprendizados relacionados à minha jornada na Formação Oracle + Alura - Turma 5 (T5) - ONE.
+códigos e aprendizados relacionados à minha jornada em Java e na Formação Oracle + Alura - Turma 5 (T5) - ONE.
 
 ## Sobre Mim
 
